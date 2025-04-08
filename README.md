@@ -1,2 +1,2 @@
 # WikiText2_from_scratch
-Pretraining
+Tutorial codes for pretraining minGemma model with WikiText2.
