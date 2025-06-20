@@ -9,6 +9,7 @@ conda install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 pytorch-cuda=
 pip install accelerate>=0.26.0  
 pip install "numpy<2"
 
-## To speed up, modify the following command:
+## To speed up on laptops, modify the following command:
 args = TrainingArguments(fp16=True, ...(same as before))
 refefence: https://huggingface.co/docs/transformers/main/en/perf_train_gpu_one
+(You can use bf16 instead on desktops.)
