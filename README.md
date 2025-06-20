@@ -8,3 +8,7 @@ conda install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 pytorch-cuda=
 ## special requirements:
 pip install accelerate>=0.26.0  
 pip install "numpy<2"
+
+## speed-up
+# use args = TrainingArguments(fp16=True, ...(same as before))
+# refefence: https://huggingface.co/docs/transformers/main/en/perf_train_gpu_one
